@@ -272,15 +272,6 @@ button {
   overflow: hidden;
 }
 
-.profile-card::after {
-  content: "";
-  position: absolute;
-  inset: auto -30px -30px auto;
-  width: 160px;
-  height: 160px;
-  background: radial-gradient(circle, rgba(45,212,191,0.16), transparent 65%);
-  border-radius: 50%;
-}
 
 .profile-top {
   display: flex;
