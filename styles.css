@@ -192,7 +192,14 @@ button {
   max-width: 700px;
   font-size: 18px;
   color: var(--muted);
-  margin-bottom: 32px;
+  margin-bottom: 12px;
+}
+
+.hero-subtext {
+  max-width: 700px;
+  font-size: 16px;
+  color: var(--muted);
+  margin: 0 0 32px;
 }
 
 .hero-actions {
@@ -249,6 +256,24 @@ button {
   backdrop-filter: blur(18px);
 }
 
+.metric-card,
+.info-card,
+.stat-card,
+.case-card,
+.timeline-item {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.metric-card:hover,
+.info-card:hover,
+.stat-card:hover,
+.case-card:hover,
+.timeline-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--line-strong);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.42);
+}
+
 .metric-card {
   padding: 18px;
   border-radius: 20px;
@@ -270,6 +295,23 @@ button {
   border-radius: var(--radius);
   position: relative;
   overflow: hidden;
+}
+
+.profile-photo {
+  width: 74px;
+  height: 74px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.32);
+  margin-bottom: 18px;
+}
+
+.panel-status {
+  margin: 12px 0 0;
+  color: #d6ddee;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 
@@ -523,6 +565,21 @@ button {
   color: var(--muted);
 }
 
+.case-role {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: #d6ddee;
+  font-size: 14px;
+}
+
+.strengths-card {
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--line);
+}
+
 .two-col {
   grid-template-columns: 1fr 1fr;
 }
@@ -693,6 +750,10 @@ button {
 
   .hero-text {
     font-size: 16px;
+  }
+
+  .hero-subtext {
+    font-size: 15px;
   }
 
   .btn {
