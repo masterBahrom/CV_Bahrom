@@ -27,7 +27,6 @@ const observer = new IntersectionObserver(
     threshold: 0.14,
   }
 );
-
 revealItems.forEach((item) => observer.observe(item));
 
 menuToggle?.addEventListener("click", () => {
