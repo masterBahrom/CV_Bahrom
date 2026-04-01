@@ -44,3 +44,16 @@ document.querySelectorAll(".nav a").forEach((link) => {
     menuToggle?.setAttribute("aria-expanded", "false");
   });
 });
+
+document.querySelectorAll(".case-study-toggle").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const article = btn.closest(".case-study");
+    if (!article) return;
+    const open = article.classList.toggle("case-study--open");
+    const details = article.querySelector(".case-study-details");
+    const label = btn.querySelector(".case-study-toggle-text");
+    btn.setAttribute("aria-expanded", String(open));
+    if (details) details.setAttribute("aria-hidden", open ? "false" : "true");
+    if (label) label.textContent = open ? "Hide details ↑" : "View details ↓";
+  });
+});
