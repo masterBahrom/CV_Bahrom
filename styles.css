@@ -545,30 +545,10 @@ button {
   font-weight: 600;
 }
 
-.case-study-list {
-  margin: 0 0 16px;
-  padding-left: 1.25rem;
-  color: #c8d0e4;
-  font-size: 15px;
-  line-height: 1.65;
-}
-
-.case-study-list li {
-  margin-bottom: 8px;
-}
-
-.case-study-list li:last-child {
-  margin-bottom: 0;
-}
-
 /* Cards grid capabilities */
 .cards-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.cards-grid--4 {
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -790,6 +770,22 @@ button {
   margin-bottom: 0;
 }
 
+.expertise-pair .fit-card p {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.expertise-pair .fit-card p:last-child {
+  margin-bottom: 0;
+}
+
+.expertise-pair .fit-card strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 /* Credibility row */
 .credibility-row {
   display: grid;
@@ -933,8 +929,7 @@ button {
     max-width: 420px;
   }
 
-  .cards-grid,
-  .cards-grid--4 {
+  .cards-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1023,8 +1018,7 @@ button {
     justify-content: center;
   }
 
-  .cards-grid,
-  .cards-grid--4 {
+  .cards-grid {
     grid-template-columns: 1fr;
   }
 
