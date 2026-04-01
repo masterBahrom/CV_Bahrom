@@ -478,7 +478,7 @@ button {
   color: var(--muted);
 }
 
-/* Case studies */
+/* Case studies (accordion) */
 .case-study {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -495,10 +495,15 @@ button {
   border-color: rgba(234, 88, 12, 0.25);
 }
 
+.case-study-summary {
+  padding: 0 32px 24px;
+}
+
 .case-study-head {
-  padding: 28px 32px 20px;
+  padding: 28px 0 16px;
   border-bottom: 1px solid var(--line);
-  background: rgba(0, 0, 0, 0.15);
+  margin: 0 0 20px;
+  background: transparent;
 }
 
 .case-study-tag {
@@ -519,8 +524,73 @@ button {
   line-height: 1.2;
 }
 
+.case-study-preview-context {
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #c8d0e4;
+}
+
+.case-study-preview-outcome {
+  margin: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.case-study-preview-outcome strong {
+  color: #e8ecf8;
+  font-weight: 700;
+}
+
+.case-study-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.case-study-toggle:hover {
+  color: var(--accent-2);
+}
+
+.case-study-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.case-study-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.38s ease;
+}
+
+.case-study--open .case-study-details {
+  grid-template-rows: 1fr;
+}
+
+.case-study-details-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
 .case-study-body {
-  padding: 28px 32px 32px;
+  padding: 0 32px 32px;
+  border-top: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.case-study--open .case-study-body {
+  padding-top: 28px;
 }
 
 .case-study-body p {
@@ -537,6 +607,28 @@ button {
 .case-study-body strong {
   color: #eef2fb;
   font-weight: 600;
+}
+
+.case-study-list {
+  margin: 0 0 16px;
+  padding-left: 1.25rem;
+  color: #c8d0e4;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.case-study-list li {
+  margin-bottom: 8px;
+}
+
+.case-study-list li:last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .case-study-details {
+    transition: none;
+  }
 }
 
 /* Cards grid capabilities */
@@ -908,7 +1000,11 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .case-study-head,
+  .case-study-summary {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
   .case-study-body {
     padding-left: 22px;
     padding-right: 22px;
