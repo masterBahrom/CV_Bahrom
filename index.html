@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bahrom Muhamedzhanov — Head of Product Candidate</title>
+  <title>Bahrom Muhamedzhanov — Head of Product · Product Leader</title>
   <meta
     name="description"
-    content="Head of Product candidate focused on scalable execution systems, cross-functional leadership, and business outcomes."
+    content="Product leader for Head of Product roles: operating models, cross-functional execution, fintech and platform scale. Dubai."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,24 +14,23 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-grid"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
 
   <header class="header" id="top">
     <div class="container header-inner">
       <a href="#top" class="logo">BM</a>
-
-      <nav class="nav" id="nav">
-        <a href="#about">About</a>
-        <a href="#expertise">Expertise</a>
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#summary">Summary</a>
+        <a href="#impact">Impact</a>
+        <a href="#cases">Case studies</a>
+        <a href="#head-of-product">Capabilities</a>
         <a href="#experience">Experience</a>
-        <a href="#cases">Cases</a>
         <a href="#contact">Contact</a>
       </nav>
-
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span>
         <span></span>
       </button>
@@ -39,335 +38,226 @@
   </header>
 
   <main>
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <div class="eyebrow">Head of Product Candidate · Fintech · Execution Systems</div>
-          <h1>
-            Bahrom
-            <span>Muhamedzhanov</span>
+    <!-- 1. Hero -->
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-main reveal">
+          <p class="eyebrow">Product leadership · Fintech · Platforms · Scale</p>
+          <h1 id="hero-title" class="hero-name">
+            Bahrom <span class="hero-name-line">Muhamedzhanov</span>
           </h1>
-          <p class="hero-text">Product leader building scalable execution systems and product outcomes</p>
-          <p class="hero-subtext">I align business, product, engineering, analytics, and QA to turn strategy into measurable delivery.</p>
-          <p class="hero-subtext">Focused on product operating models, execution excellence, and cross-functional leadership across fintech and digital businesses.</p>
-
+          <p class="hero-title-line">Head of Product · Product Leader</p>
+          <p class="hero-lead">
+            I build product operating models and align business, product, engineering, analytics, and QA so strategy becomes measurable outcomes—not just shipped output.
+          </p>
+          <ul class="hero-proof" aria-label="Proof points">
+            <li><span class="hero-proof-num">+34%</span> delivery speed after operating-model and flow redesign</li>
+            <li><span class="hero-proof-num">−63%</span> active backlog through governance and prioritization</li>
+            <li><span class="hero-proof-num">111</span> stores + HQ · <span class="hero-proof-num">~1.1–1.4k</span> internal users on HR platforms</li>
+            <li><span class="hero-proof-num">+60k</span> applications in first month on a mortgage growth initiative</li>
+          </ul>
           <div class="hero-actions">
-            <a href="#experience" class="btn btn-primary">View Experience</a>
-            <a href="#contact" class="btn btn-secondary">Let’s Connect</a>
-          </div>
-
-          <div class="hero-metrics">
-            <div class="metric-card">
-              <strong>8+ years</strong>
-              <span>Product & analytics experience</span>
-            </div>
-            <div class="metric-card">
-                <strong>Execution leadership</strong>
-                <span>Operating models, governance, and delivery systems</span>
-            </div>
-            <div class="metric-card">
-                <strong>Dubai-based</strong>
-                <span>Open to Head of Product roles</span>
-            </div>
+            <a href="#cases" class="btn btn-primary">View case studies</a>
+            <a href="#contact" class="btn btn-secondary">Contact</a>
+            <a href="cv.pdf" class="btn btn-ghost" download>Download CV</a>
           </div>
         </div>
 
-        <aside class="hero-panel reveal delay-1">
-          <div class="profile-card">
-            <div class="profile-header">
+        <aside class="hero-aside reveal delay-1">
+          <div class="exec-card">
+            <div class="exec-card-head">
               <div class="profile-photo" aria-hidden="true"></div>
-              <div class="profile-top">
-                <div>
-                <p class="small-label">Executive summary</p>
-                  <h2>Principal Analyst</h2>
-                <p class="muted">Renmoney · Digital Banking</p>
-                <p class="panel-status">Leading product operating model improvements, delivery flow optimization, and cross-functional execution.</p>
-                </div>
-                <div class="status-dot"></div>
+              <div>
+                <p class="exec-kicker">At a glance</p>
+                <p class="exec-role">Product Leader</p>
+                <p class="exec-org muted">Digital banking delivery &amp; operating model · Renmoney</p>
               </div>
             </div>
-
-            <div class="panel-divider"></div>
-
-            <div class="focus-list">
-              <div class="focus-item">
-                <span>Current scope</span>
-                <strong>Digital banking execution systems</strong>
-              </div>
-              <div class="focus-item">
-                <span>Leadership focus</span>
-                <strong>Backlog governance and prioritization</strong>
-              </div>
-              <div class="focus-item">
-                <span>Core strengths</span>
-                <strong>Cross-functional delivery and operating model design</strong>
-              </div>
-              <div class="focus-item">
-                <span>Scale</span>
-                <strong>111 stores + HQ, 1,100-1,400 users</strong>
-              </div>
-              <div class="focus-item">
-                <span>Key outcomes</span>
-                <strong>34% speed gain, 63% backlog reduction</strong>
-              </div>
-            </div>
-
-            <div class="panel-divider"></div>
-
-            <div class="mini-stats">
+            <p class="exec-blurb">
+              Hands-on leadership across prioritization, release coordination, and cross-functional alignment—without losing sight of business and customer outcomes.
+            </p>
+            <dl class="exec-facts">
               <div>
-                <strong>+34%</strong>
-                <span>Delivery speed</span>
+                <dt>Focus</dt>
+                <dd>Strategy → execution → outcome</dd>
               </div>
               <div>
-                <strong>-63%</strong>
-                <span>Active backlog</span>
+                <dt>Domains</dt>
+                <dd>Fintech, HR tech, partner platforms, growth</dd>
               </div>
               <div>
-                <strong>-92%</strong>
-                <span>Operating cost</span>
+                <dt>Scale</dt>
+                <dd>Distributed teams, high-volume journeys</dd>
               </div>
-              <div>
-                <strong>+30%</strong>
-                <span>Candidate inflow</span>
-              </div>
-            </div>
+            </dl>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section" id="what-i-lead">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Leadership ownership</span>
-          <h2>What I lead</h2>
-        </div>
-
-        <div class="cards-grid">
-          <article class="info-card reveal">
-            <h3>Product delivery systems</h3>
-            <p>I design and scale delivery systems that connect planning, execution, and release quality.</p>
-          </article>
-
-          <article class="info-card reveal delay-1">
-            <h3>Backlog governance and prioritization</h3>
-            <p>I establish governance models that improve prioritization clarity and decision velocity.</p>
-          </article>
-
-          <article class="info-card reveal delay-2">
-            <h3>Cross-functional execution</h3>
-            <p>I align product, engineering, QA, analytics, and business teams around shared execution goals.</p>
-          </article>
-
-          <article class="info-card reveal delay-3">
-            <h3>Delivery planning and release coordination</h3>
-            <p>I run delivery planning systems that reduce bottlenecks and improve release predictability.</p>
-          </article>
-
-          <article class="info-card reveal">
-            <h3>Product operating models and workflow design</h3>
-            <p>I redesign workflows, Jira/Kanban collaboration, and RFC structures to improve execution throughput.</p>
-          </article>
-
-          <article class="info-card reveal delay-1">
-            <h3>Strategy-to-execution translation</h3>
-            <p>I translate strategy into executable initiatives, ownership models, and measurable business outcomes.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="scale-execution">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Execution model</span>
-          <h2>How I scale execution</h2>
-        </div>
-        <div class="cards-grid">
-          <article class="info-card reveal">
-            <h3>Standardize delivery systems</h3>
-            <p>Define consistent workflows, governance, and planning cadences across teams.</p>
-          </article>
-          <article class="info-card reveal delay-1">
-            <h3>Align teams around priorities</h3>
-            <p>Unify product, engineering, analytics, QA, and business around outcome-focused priorities.</p>
-          </article>
-          <article class="info-card reveal delay-2">
-            <h3>Reduce ambiguity across functions</h3>
-            <p>Improve RFC clarity, ownership boundaries, and decision paths for faster execution.</p>
-          </article>
-          <article class="info-card reveal delay-3">
-            <h3>Improve flow and quality</h3>
-            <p>Increase time-to-market performance through stronger flow efficiency and execution quality.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
+    <!-- 2. Executive summary -->
+    <section class="section section-tight" id="summary">
       <div class="container narrow">
         <div class="section-head reveal">
-          <span class="section-tag">About</span>
-          <h2>Leadership profile</h2>
+          <span class="section-tag">Executive summary</span>
+          <h2>Who I am as a product leader</h2>
         </div>
-
-        <div class="about-card reveal delay-1">
+        <div class="prose-card reveal delay-1">
           <p>
-            I combine product thinking, delivery leadership, systems and process design, business alignment,
-            and execution management to build scalable product organizations.
-          </p>
-          <p>
-            My focus is organizational: building operating models, governance mechanisms, and collaboration
-            systems that improve speed, quality, and measurable business outcomes across cross-functional teams.
+            I’m a product leader who connects <strong>strategy</strong> to <strong>how teams actually work</strong>: prioritization, operating cadence, clarity between functions, and delivery that shows up in the P&amp;L and in customer or employee experience. I’ve done this across digital banking, retail-scale HR tech, partner ecosystems, and high-stakes acquisition journeys—not by owning tickets, but by owning <strong>outcomes and the system that produces them</strong>.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="expertise">
+    <!-- 3. Key impact -->
+    <section class="section section-accent" id="impact">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">Expertise</span>
-          <h2>Leadership capabilities</h2>
+          <span class="section-tag">Evidence</span>
+          <h2>Key impact</h2>
+          <p class="section-lead muted">Metric and what changed—not vanity numbers.</p>
+        </div>
+        <div class="impact-grid">
+          <article class="impact-item reveal">
+            <p class="impact-metric">+34% <span class="impact-label">delivery speed</span></p>
+            <p class="impact-copy">Tighter governance, clearer intake, and a delivery model people could run without constant firefighting.</p>
+          </article>
+          <article class="impact-item reveal delay-1">
+            <p class="impact-metric">−63% <span class="impact-label">active backlog</span></p>
+            <p class="impact-copy">Prioritization rules and scope discipline so the backlog reflected strategy, not accumulated noise.</p>
+          </article>
+          <article class="impact-item reveal delay-2">
+            <p class="impact-metric">−92% <span class="impact-label">operating cost</span></p>
+            <p class="impact-copy">Replaced a high-cost manual path with automation where scale demanded it—measured end-to-end, not feature-by-feature.</p>
+          </article>
+          <article class="impact-item reveal delay-3">
+            <p class="impact-metric">+30% <span class="impact-label">candidate inflow</span></p>
+            <p class="impact-copy">Product-led growth mechanism (referral) with ownership across journey, analytics, and rollout.</p>
+          </article>
+          <article class="impact-item reveal">
+            <p class="impact-metric">+2 <span class="impact-label">Candidate NPS</span></p>
+            <p class="impact-copy">Experience and process changes on a platform used daily at scale—not a one-off survey project.</p>
+          </article>
+          <article class="impact-item reveal delay-1">
+            <p class="impact-metric">111 + ~1.1–1.4k</p>
+            <p class="impact-copy">HR tech footprint: stores + HQ; internal users depending on product decisions and reliability.</p>
+          </article>
+          <article class="impact-item reveal delay-2">
+            <p class="impact-metric">+300 <span class="impact-label">partners</span></p>
+            <p class="impact-copy">Partner platform and onboarding scaled so the business could grow the network without linear headcount.</p>
+          </article>
+          <article class="impact-item reveal delay-3">
+            <p class="impact-metric">+60k <span class="impact-label">applications</span></p>
+            <p class="impact-copy">First-month volume on a mortgage growth push—execution across funnel, channels, and operations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Case studies -->
+    <section class="section" id="cases">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Depth</span>
+          <h2>Case studies</h2>
+          <p class="section-lead muted">Context, role, problem, change, outcome.</p>
         </div>
 
-        <div class="cards-grid">
+        <article class="case-study reveal">
+          <header class="case-study-head">
+            <span class="case-study-tag">Digital banking · Renmoney</span>
+            <h3 class="case-study-title">Delivery and operating model under pressure</h3>
+          </header>
+          <div class="case-study-body">
+            <p><strong>Context.</strong> Digital banking needed predictable delivery: competing priorities, unclear handoffs, and backlog growth that masked real strategic focus.</p>
+            <p><strong>My role.</strong> Product leadership on how work flows from strategy to release: prioritization, planning rhythm, alignment across product, engineering, analytics, and QA.</p>
+            <p><strong>Problem.</strong> Execution felt reactive; speed and quality traded off; stakeholders lacked a single honest view of what was in flight and why.</p>
+            <p><strong>What I changed.</strong> Operating model for intake and governance; clearer ownership of decisions; collaboration patterns so RFCs and delivery cadence reduced ambiguity—not “more process,” but fewer wrong conversations.</p>
+            <p><strong>Outcome.</strong> <strong>+34% delivery speed</strong> and <strong>−63% active backlog</strong>—evidence that the system of work, not heroics, moved the needle.</p>
+          </div>
+        </article>
+
+        <article class="case-study reveal delay-1">
+          <header class="case-study-head">
+            <span class="case-study-tag">HR tech · Leroy Merlin</span>
+            <h3 class="case-study-title">Internal platforms at retail scale</h3>
+          </header>
+          <div class="case-study-body">
+            <p><strong>Context.</strong> HR-facing product used across <strong>111 stores + headquarters</strong>, roughly <strong>1,100–1,400 employees</strong> on internal workflows—errors and friction compound fast.</p>
+            <p><strong>My role.</strong> Senior product leadership: roadmap coherence, stakeholder alignment, and execution across a distributed user base.</p>
+            <p><strong>Problem.</strong> Acquisition and operations were expensive; candidate experience varied by location; manual work didn’t scale with hiring peaks.</p>
+            <p><strong>What I changed.</strong> Referral and growth mechanics; automation where manual processes dominated; standardization so local teams weren’t reinventing the process weekly.</p>
+            <p><strong>Outcome.</strong> <strong>+30% candidate inflow</strong>, <strong>−92% operating cost</strong> on the call-center path replaced by automation, <strong>+2 Candidate NPS</strong>—business, cost, and experience moving together.</p>
+          </div>
+        </article>
+
+        <article class="case-study reveal delay-2">
+          <header class="case-study-head">
+            <span class="case-study-tag">Fintech · Tinkoff Bank</span>
+            <h3 class="case-study-title">Partner ecosystem and rewards</h3>
+          </header>
+          <div class="case-study-body">
+            <p><strong>Context.</strong> Multi-domain product work: rewards, partner-facing surfaces, onboarding, and growth loops tied to revenue and network effects.</p>
+            <p><strong>My role.</strong> Product leadership across partner systems and growth levers; coordination with engineering and business on what “scale” actually requires.</p>
+            <p><strong>Problem.</strong> Partner growth hit operational limits; manual support didn’t scale; onboarding had to be repeatable.</p>
+            <p><strong>What I changed.</strong> Partner platform direction and workflows so partners could self-serve; clearer product boundaries so teams weren’t duplicating effort.</p>
+            <p><strong>Outcome.</strong> <strong>+300 new partners</strong>; contribution to initiatives recognized in the industry; foundation for scalable network growth.</p>
+          </div>
+        </article>
+
+        <article class="case-study reveal delay-3">
+          <header class="case-study-head">
+            <span class="case-study-tag">Mortgage · Growth</span>
+            <h3 class="case-study-title">High-volume acquisition and digital journey</h3>
+          </header>
+          <div class="case-study-body">
+            <p><strong>Context.</strong> Mortgage and acquisition contexts where funnel economics and operational reliability determine whether marketing spend converts.</p>
+            <p><strong>My role.</strong> Own the product narrative from journey design through integration-heavy delivery—DOM RF and Tinkoff-era mortgage growth work.</p>
+            <p><strong>Problem.</strong> Slow or brittle journeys; integration risk; need for volume without collapsing operations.</p>
+            <p><strong>What I changed.</strong> Journey structure, integration-ready requirements, and execution sequencing so teams shipped in the right order.</p>
+            <p><strong>Outcome.</strong> Up to <strong>60,000 applications in the first month</strong> on a major push; award-recognized mortgage product exposure (Global Finance).</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. What I bring as Head of Product -->
+    <section class="section section-tight section-accent" id="head-of-product">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Leadership</span>
+          <h2>What I bring as Head of Product</h2>
+        </div>
+        <div class="cards-grid cards-grid--4">
           <article class="info-card reveal">
-            <h3>Operating model leadership</h3>
-            <p>
-              Designing product operating models that connect strategy, execution governance, and business delivery.
-            </p>
+            <h3>Strategy → execution</h3>
+            <p>Translate company direction into a portfolio teams can execute—sequenced, measurable, owned.</p>
           </article>
-
           <article class="info-card reveal delay-1">
-            <h3>Execution system design</h3>
-            <p>
-              Redesigning Jira workflows, Kanban flows, and collaboration models to improve throughput.
-            </p>
+            <h3>Operating model design</h3>
+            <p>How prioritization, planning, and handoffs work so speed doesn’t come from burnout.</p>
           </article>
-
           <article class="info-card reveal delay-2">
-            <h3>Cross-functional team leadership</h3>
-            <p>
-              Leading aligned execution across product, engineering, QA, analytics, and business stakeholders.
-            </p>
+            <h3>Prioritization &amp; trade-offs</h3>
+            <p>Explicit choices under constraint: what not to do, and how that gets communicated.</p>
           </article>
-
           <article class="info-card reveal delay-3">
-            <h3>Business-outcome delivery</h3>
-            <p>
-              Translating priorities into measurable gains in speed, cost efficiency, quality, and growth.
-            </p>
+            <h3>Cross-functional alignment</h3>
+            <p>One story for product, engineering, analytics, QA, and business—same goals, same definition of done.</p>
           </article>
         </div>
-
-        <div class="skills-wrap reveal">
-          <div class="skills-group">
-            <h4>Skills</h4>
-            <div class="tags">
-              <span>Business Analytics</span>
-              <span>System Analytics</span>
-              <span>Agile</span>
-              <span>CJM</span>
-              <span>USM</span>
-              <span>CustDev</span>
-              <span>User Stories</span>
-              <span>Project Management</span>
-              <span>Planning & Delegation</span>
-            </div>
-          </div>
-
-          <div class="skills-group">
-            <h4>Tools & Tech</h4>
-            <div class="tags">
-              <span>Jira</span>
-              <span>Confluence</span>
-              <span>SQL</span>
-              <span>JSON</span>
-              <span>REST</span>
-              <span>SOAP</span>
-              <span>Figma</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>SAS</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
-    <section class="section" id="strengths">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Leadership approach</span>
-          <h2>Product leadership approach</h2>
-        </div>
-
-        <div class="strengths-card reveal delay-1">
-          <div class="tags">
-            <span>Business</span>
-            <span>Strategy</span>
-            <span>Execution</span>
-            <span>Delivery</span>
-            <span>Outcome</span>
-          </div>
-          <p class="case-role">Business → Strategy → Execution → Delivery → Outcome</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-accent" id="results">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Results at scale</span>
-          <h2>Leadership impact</h2>
-        </div>
-
-        <div class="stats-grid">
-          <div class="stat-card reveal">
-            <strong>+34%</strong>
-            <span>Delivery speed improvement from redesigned execution flow and governance model.</span>
-          </div>
-          <div class="stat-card reveal delay-1">
-            <strong>-63%</strong>
-            <span>Active backlog reduction through prioritization rules, workflow redesign, and tighter intake control.</span>
-          </div>
-          <div class="stat-card reveal delay-2">
-            <strong>-92%</strong>
-            <span>Operational cost reduction driven by call-center to chatbot transformation leadership.</span>
-          </div>
-          <div class="stat-card reveal delay-3">
-            <strong>+30%</strong>
-            <span>Candidate inflow growth from referral system launch and execution coordination.</span>
-          </div>
-          <div class="stat-card reveal">
-            <strong>+2 NPS</strong>
-            <span>Candidate NPS improvement through experience redesign and process standardization.</span>
-          </div>
-          <div class="stat-card reveal delay-1">
-            <strong>111 + 1,100-1,400</strong>
-            <span>Systems scaled across 111 stores + HQ and used by approximately 1,100-1,400 employees.</span>
-          </div>
-          <div class="stat-card reveal">
-            <strong>+300</strong>
-            <span>New partners onboarded through scaled rewards partner platform leadership.</span>
-          </div>
-          <div class="stat-card reveal delay-1">
-            <strong>+60k</strong>
-            <span>Applications in first month from mortgage growth execution and channel optimization.</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- 6. Experience -->
     <section class="section" id="experience">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-tag">Experience</span>
-          <h2>Career highlights</h2>
+          <span class="section-tag">Track record</span>
+          <h2>Experience</h2>
+          <p class="section-lead muted">Leadership narrative—what I owned and moved.</p>
         </div>
-
         <div class="timeline">
           <article class="timeline-item reveal">
             <div class="timeline-meta">
@@ -375,13 +265,12 @@
               <strong>Renmoney</strong>
             </div>
             <div class="timeline-content">
-              <h3>Principal Analyst</h3>
+              <h3>Product leadership · Digital banking</h3>
               <p>
-                Led product operating model and delivery system improvements for digital banking, redesigning backlog governance, Jira/Kanban flow, and RFC collaboration to increase delivery speed and reduce execution friction.
+                <strong>Led</strong> delivery and operating-model improvements for digital banking: prioritization, cross-functional alignment, and execution rhythm so the organization shipped faster with less backlog drag—<strong>+34% speed</strong>, <strong>−63% active backlog</strong>.
               </p>
             </div>
           </article>
-
           <article class="timeline-item reveal delay-1">
             <div class="timeline-meta">
               <span>Jul 2024 — Feb 2025</span>
@@ -390,37 +279,34 @@
             <div class="timeline-content">
               <h3>Senior Product Manager</h3>
               <p>
-                Led product relaunch and funnel optimization across acquisition journeys, improving growth efficiency through tighter experimentation loops and strategy-to-execution alignment.
+                <strong>Owned</strong> relaunch and funnel strategy: acquisition efficiency, experimentation discipline, and alignment between marketing narrative and product reality.
               </p>
             </div>
           </article>
-
           <article class="timeline-item reveal delay-2">
             <div class="timeline-meta">
               <span>Mar 2021 — Nov 2024</span>
               <strong>Leroy Merlin</strong>
             </div>
             <div class="timeline-content">
-              <h3>Senior Product Manager</h3>
+              <h3>Senior Product Manager · HR tech</h3>
               <p>
-                Built and scaled HRTech product systems across 111 stores + headquarters, serving approximately 1,100-1,400 internal users; standardized workflows and execution processes to deliver +30% candidate inflow, -92% operational cost, and +2 Candidate NPS.
+                <strong>Scaled</strong> internal HR platforms across <strong>111 stores + HQ</strong> (~<strong>1.1–1.4k</strong> users): growth, automation, and experience—<strong>+30% inflow</strong>, <strong>−92% cost</strong> on replaced path, <strong>+2 NPS</strong>.
               </p>
             </div>
           </article>
-
           <article class="timeline-item reveal">
             <div class="timeline-meta">
               <span>Nov 2020 — Feb 2021</span>
               <strong>DOM RF Bank</strong>
             </div>
             <div class="timeline-content">
-              <h3>Product Manager</h3>
+              <h3>Product Manager · Mortgage</h3>
               <p>
-                Scaled mortgage delivery model by leading integration-ready product systems that improved decision speed, reduced ambiguity, and strengthened execution reliability across teams.
+                <strong>Built</strong> integration-ready mortgage journeys: clarity for engineering, faster decisions for customers, less operational risk for the bank.
               </p>
             </div>
           </article>
-
           <article class="timeline-item reveal delay-1">
             <div class="timeline-meta">
               <span>Jan 2019 — Mar 2020</span>
@@ -429,7 +315,7 @@
             <div class="timeline-content">
               <h3>Product Manager</h3>
               <p>
-                Led multi-domain product execution across rewards, partner systems, onboarding, and mortgage growth; scaled partner ecosystem (+300 partners), supported high-volume acquisition (+60k applications), and contributed to product initiatives recognized by Global Finance.
+                <strong>Led</strong> multi-domain execution—rewards, partners, onboarding, mortgage growth: <strong>+300 partners</strong>, <strong>+60k applications</strong> on a major initiative, contribution to <strong>Global Finance</strong>-recognized work.
               </p>
             </div>
           </article>
@@ -437,147 +323,85 @@
       </div>
     </section>
 
-    <section class="section" id="cases">
-      <div class="container">
+    <!-- 7. Leadership approach -->
+    <section class="section section-tight" id="approach">
+      <div class="container narrow">
         <div class="section-head reveal">
-          <span class="section-tag">Selected transformations</span>
-          <h2>Selected transformations</h2>
+          <span class="section-tag">How I lead</span>
+          <h2>Leadership approach</h2>
         </div>
-
-        <div class="case-grid">
-          <article class="case-card reveal">
-            <div class="case-top">
-              <span class="case-label">Delivery transformation</span>
-              <h3>Delivery model redesign</h3>
-            </div>
-            <p>Context: fragmented workflows and low predictability across delivery teams.</p>
-            <p class="case-role">What changed: redesigned governance, backlog rules, Jira/Kanban flow, and RFC collaboration model.</p>
-            <p class="case-role">Outcome: +34% delivery speed and -63% active backlog.</p>
-          </article>
-
-          <article class="case-card reveal delay-1">
-            <div class="case-top">
-              <span class="case-label">Growth transformation</span>
-              <h3>Referral system launch</h3>
-            </div>
-            <p>Context: high dependency on expensive acquisition channels.</p>
-            <p class="case-role">What changed: launched and scaled referral mechanics with instrumentation and clear execution ownership.</p>
-            <p class="case-role">Outcome: +30% candidate inflow and stronger acquisition efficiency.</p>
-          </article>
-
-          <article class="case-card reveal delay-2">
-            <div class="case-top">
-              <span class="case-label">Cost transformation</span>
-              <h3>Call-center to chatbot shift</h3>
-            </div>
-            <p>Context: manual call-center operations created high cost and low scalability.</p>
-            <p class="case-role">What changed: replaced manual process with automated chatbot workflow and operational controls.</p>
-            <p class="case-role">Outcome: -92% operational cost and improved process speed.</p>
-          </article>
-
-          <article class="case-card reveal delay-3">
-            <div class="case-top">
-              <span class="case-label">Platform transformation</span>
-              <h3>Rewards partner platform scaling</h3>
-            </div>
-            <p>Context: partner growth constrained by manual support and low self-service capability.</p>
-            <p class="case-role">What changed: built and scaled partner workflow systems and onboarding flows.</p>
-            <p class="case-role">Outcome: +300 new partners and improved operational efficiency.</p>
-          </article>
-
-          <article class="case-card reveal">
-            <div class="case-top">
-              <span class="case-label">Fintech transformation</span>
-              <h3>Mortgage growth and digital journey</h3>
-            </div>
-            <p>Context: mortgage funnel and journey needed stronger conversion and execution consistency.</p>
-            <p class="case-role">What changed: led digital journey redesign and integration-ready delivery planning.</p>
-            <p class="case-role">Outcome: +60,000 applications in first month and stronger conversion performance.</p>
-          </article>
-
-          <article class="case-card reveal delay-1">
-            <div class="case-top">
-              <span class="case-label">Workflow transformation</span>
-              <h3>Product workflow digitization</h3>
-            </div>
-            <p>Context: legacy workflow model created bottlenecks and quality variance.</p>
-            <p class="case-role">What changed: digitized product workflows and standardized execution handoffs across teams.</p>
-            <p class="case-role">Outcome: faster flow, better quality control, and higher execution predictability.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="credibility">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-tag">Credibility</span>
-          <h2>Credibility</h2>
-        </div>
-
-        <div class="cards-grid">
-          <article class="info-card reveal">
-            <h3>Industry recognition</h3>
-            <p>Worked on mortgage product initiatives recognized by Global Finance.</p>
-          </article>
-
-          <article class="info-card reveal delay-1">
-            <h3>Scale and distributed execution</h3>
-            <p>Led systems used at scale across distributed teams, including 111 stores + HQ and 1,100-1,400 internal users.</p>
-          </article>
-
-          <article class="info-card reveal delay-2">
-            <h3>Talent and technical foundation</h3>
-            <p>Mentored talent successfully and hold a Master of Software Engineering from Bauman University.</p>
-          </article>
-
-          <article class="info-card reveal delay-3">
-            <h3>Cross-domain leadership</h3>
-            <p>Built leadership experience across fintech, digital banking, HRTech, partner platforms, and growth systems.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="education">
-      <div class="container two-col">
-        <div class="edu-card reveal">
-          <span class="section-tag">Education</span>
-          <h3>Bauman Moscow State Technical University</h3>
-          <p>Master of Software Engineering</p>
-          <p class="muted">2009 — 2015 · GPA 8.5/10</p>
-        </div>
-
-        <div class="edu-card reveal delay-1">
-          <span class="section-tag">Additional</span>
-          <h3>Mentorship & Teaching</h3>
+        <div class="prose-card reveal delay-1">
           <p>
-            Mentored at Tinkoff Fintech School. Lectured at Bauman Moscow State
-            Technical University for 5 years in programming and SQL.
+            I lead by making <strong>strategy legible to teams</strong>: clear bets, explicit trade-offs, and a delivery rhythm that matches reality. I invest in <strong>alignment</strong> (same priorities across product, engineering, analytics, QA, business) and in <strong>systems</strong> (how decisions get made, how work enters the funnel, how we know we won). Metrics matter when they reflect something we changed—not when they decorate a slide.
           </p>
+          <p class="flow-line muted">Business clarity → strategic bets → execution design → delivery → measurable outcomes</p>
         </div>
       </div>
     </section>
 
+    <!-- 8. Who I'm a fit for -->
+    <section class="section section-accent" id="fit">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Fit</span>
+          <h2>Who I’m a fit for</h2>
+        </div>
+        <div class="fit-grid">
+          <div class="fit-card reveal">
+            <h3>Companies</h3>
+            <ul>
+              <li>Fintech and digital banking scaling product orgs</li>
+              <li>Platform and marketplace businesses (partners, internal tools)</li>
+              <li>High-growth teams where execution discipline is the bottleneck</li>
+            </ul>
+          </div>
+          <div class="fit-card reveal delay-1">
+            <h3>Situations</h3>
+            <ul>
+              <li>Need for Head of Product or product leadership with hands-on rigor</li>
+              <li>Post-PMF scale: operating model, prioritization, cross-functional friction</li>
+              <li>Complex regulated or integration-heavy domains</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credibility + education (compact) -->
+    <section class="section section-tight" id="credibility">
+      <div class="container">
+        <div class="credibility-row">
+          <div class="credibility-block reveal">
+            <h3 class="credibility-title">Credibility</h3>
+            <p class="muted">Industry-recognized mortgage work (Global Finance). Mentorship (e.g. Tinkoff Fintech School). Master of Software Engineering—technical fluency without losing the business thread.</p>
+          </div>
+          <div class="credibility-block reveal delay-1">
+            <h3 class="credibility-title">Education</h3>
+            <p class="muted">Bauman Moscow State Technical University · Master of Software Engineering · 2009—2015</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Contact -->
     <section class="section contact-section" id="contact">
       <div class="container contact-box reveal">
-        <div>
+        <div class="contact-intro">
           <span class="section-tag">Contact</span>
-          <h2>Let’s connect</h2>
+          <h2>Let’s talk</h2>
           <p class="contact-text">
-            Open to product leadership roles in fintech and digital products.
+            I’m open to <strong>Head of Product</strong>, <strong>VP Product</strong>, and <strong>senior product leadership</strong> roles—full-time or strategic leadership mandates—in fintech, digital banking, and product-led platforms.
           </p>
-          <p class="contact-text">
-            Based in Dubai. Available for discussions about Product Manager /
-            Product Owner roles, strategy, analytics, delivery, and product transformation.
+          <p class="contact-text muted">
+            Not seeking junior IC or coordinator roles. Dubai-based; global conversations welcome.
           </p>
         </div>
-
         <div class="contact-list">
           <a href="mailto:bamukhamedzhanov@gmail.com">bamukhamedzhanov@gmail.com</a>
           <a href="tel:+971547437161">+971 54 743 71 61</a>
           <a href="https://www.linkedin.com/in/bamukhamedzhanov/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://t.me/master_bahrom" target="_blank" rel="noreferrer">Telegram</a>
+          <a href="cv.pdf" class="contact-cv" download>Download CV (PDF)</a>
         </div>
       </div>
     </section>

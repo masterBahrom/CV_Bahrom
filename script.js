@@ -4,6 +4,7 @@ const menuToggle = document.getElementById("menuToggle");
 const nav = document.getElementById("nav");
 
 function handleHeader() {
+  if (!header) return;
   if (window.scrollY > 10) {
     header.classList.add("scrolled");
   } else {
@@ -12,7 +13,7 @@ function handleHeader() {
 }
 
 handleHeader();
-window.addEventListener("scroll", handleHeader);
+window.addEventListener("scroll", handleHeader, { passive: true });
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -24,17 +25,22 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.14,
+    root: null,
+    rootMargin: "0px 0px -8% 0px",
+    threshold: 0.08,
   }
 );
+
 revealItems.forEach((item) => observer.observe(item));
 
 menuToggle?.addEventListener("click", () => {
-  nav.classList.toggle("open");
+  const open = nav.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
 });
 
-document.querySelectorAll('.nav a').forEach((link) => {
+document.querySelectorAll(".nav a").forEach((link) => {
   link.addEventListener("click", () => {
-    nav.classList.remove("open");
+    nav?.classList.remove("open");
+    menuToggle?.setAttribute("aria-expanded", "false");
   });
 });
