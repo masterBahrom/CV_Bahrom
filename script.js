@@ -45,15 +45,24 @@ document.querySelectorAll(".nav a").forEach((link) => {
   });
 });
 
-document.querySelectorAll(".case-study-toggle").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const article = btn.closest(".case-study");
-    if (!article) return;
-    const open = article.classList.toggle("case-study--open");
-    const details = article.querySelector(".case-study-details");
-    const label = btn.querySelector(".case-study-toggle-text");
-    btn.setAttribute("aria-expanded", String(open));
-    if (details) details.setAttribute("aria-hidden", open ? "false" : "true");
-    if (label) label.textContent = open ? "Hide details ↑" : "View details ↓";
+document.querySelectorAll(".timeline-item").forEach((item) => {
+  const syncAria = () => {
+    item.setAttribute(
+      "aria-expanded",
+      item.classList.contains("expanded") ? "true" : "false"
+    );
+  };
+
+  item.addEventListener("click", () => {
+    item.classList.toggle("expanded");
+    syncAria();
+  });
+
+  item.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      item.classList.toggle("expanded");
+      syncAria();
+    }
   });
 });
