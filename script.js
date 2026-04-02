@@ -374,7 +374,7 @@ const I18N = {
     contact: {
       tag: "Contact",
       h2: "Let’s talk",
-      p1: "I’m targeting Head of Product, VP Product, and senior product leadership roles—full-time—in fintech, digital banking, platform products, and other complex, high-stakes environments. Based in Dubai; happy to discuss international opportunities that match that scope.",
+      p1: "I’m targeting Head of Product and senior product leadership roles—full-time—in fintech, digital banking, platform products, and other complex, high-stakes environments. Based in Dubai; happy to discuss international opportunities that match that scope.",
       p2: "I focus on leadership mandates where I can own portfolio direction and outcomes end-to-end—if that’s what you’re building, I’d like to hear from you.",
       cvLabel: "Download CV (PDF)",
     },
@@ -681,7 +681,7 @@ const I18N = {
     contact: {
       tag: "Контакты",
       h2: "Давайте обсудим",
-      p1: "Ориентируюсь на роли руководителя продуктового направления, вице‑президента по продукту и опытного продуктового лидерства — на постоянной основе — в сфере финансовых технологий, цифровых банковских сервисах, продуктовых платформах и других сложных контекстах. Базируюсь в Дубае; готов обсуждать международные возможности в этом масштабе.",
+      p1: "Рассматриваю роли руководителя продуктового направления и продуктового лидера в FinTech, цифровом банкинге и продуктовых платформах. Базируюсь в Дубае; готов обсуждать международные возможности в этом масштабе.",
       p2: "Фокус на лидерских мандатах, где я отвечаю за направление портфеля и сквозной результат. Если вы строите именно это — буду рад обсудить.",
       cvLabel: "Скачать резюме",
     },
