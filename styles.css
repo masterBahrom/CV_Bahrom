@@ -189,6 +189,36 @@ button {
   padding: 0;
 }
 
+/* Language toggle (EN / RU) */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 0;
+}
+
+.lang-sep {
+  color: rgba(255, 255, 255, 0.18);
+  font-weight: 600;
+}
+
+.lang-btn.active {
+  color: var(--text);
+}
+
 .menu-toggle span {
   display: block;
   width: 18px;
@@ -977,6 +1007,12 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .lang-toggle {
+    margin-left: auto;
+    padding: 6px 8px;
+    gap: 8px;
   }
 
   .timeline-item {
