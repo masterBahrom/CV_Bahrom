@@ -31,6 +31,15 @@
         <a href="#expertise">Expertise</a>
         <a href="#contact">Contact</a>
       </nav>
+      <div class="lang-toggle" role="group" aria-label="Language toggle">
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">
+          EN
+        </button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">
+          RU
+        </button>
+      </div>
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span>
         <span></span>
@@ -57,7 +66,7 @@
           <div class="hero-actions">
             <a href="#cases" class="btn btn-primary">View case studies</a>
             <a href="#contact" class="btn btn-secondary">Contact</a>
-            <a href="Bahrom.pdf" class="btn btn-ghost" download>Download CV</a>
+            <a href="Bahrom.pdf" class="btn btn-ghost cv-download cv-hero-download" data-cv-en="Bahrom.pdf" data-cv-ru="Bahrom_ru.pdf" download>Download CV</a>
           </div>
         </div>
 
@@ -494,7 +503,7 @@
           <a href="tel:+971547437161">+971 54 743 71 61</a>
           <a href="https://www.linkedin.com/in/bamukhamedzhanov/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://t.me/master_bahrom" target="_blank" rel="noreferrer">Telegram</a>
-          <a href="Bahrom.pdf" class="contact-cv" download>Download CV (PDF)</a>
+          <a href="Bahrom.pdf" class="contact-cv cv-download cv-contact-download" data-cv-en="Bahrom.pdf" data-cv-ru="Bahrom_ru.pdf" download>Download CV (PDF)</a>
         </div>
       </div>
     </section>
