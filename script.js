@@ -77,24 +77,25 @@ const CV_BY_LANG = {
 
 const I18N = {
   en: {
-    title: "Bahrom Muhamedzhanov — Product Delivery Lead · Product Leader",
+    title: "Bahrom Muhamedzhanov — Product Lead · Senior Product Manager",
     metaDescription:
-      "Product Delivery Lead with product leadership scope: portfolio direction, prioritization, product bets, and strategy-to-execution leadership across fintech, platforms, HR tech, and regulated journeys. Dubai.",
+      "Product Lead and Senior Product Manager with senior corporate product experience across fintech, platforms, regulated journeys, and 0→1 product systems. Based in Dubai.",
     nav: {
       summary: "Summary",
       impact: "Impact",
-      cases: "Case studies",
+      cases: "Selected work",
       capabilities: "Capabilities",
       experience: "Experience",
       expertise: "Expertise",
       contact: "Contact",
     },
     hero: {
-      eyebrow: "Product Leadership · Fintech · Platforms · Scale",
-      titleLine: "Product Delivery Lead · Product Leader",
+      eyebrow: "Product Leadership · Fintech · Platforms · 0→1 Systems",
+      titleLine: "Product Lead · Senior Product Manager",
       lead1:
-        "I define portfolio direction and prioritization—then build the system that turns product bets into measurable outcomes across product, engineering, and business.",
-      lead2: "I focus on which bets matter—not just how they are delivered.",
+        "I lead product strategy and execution across complex fintech, platform, and regulated journeys—turning ambiguous problems into clear product decisions and measurable outcomes.",
+      lead2:
+        "I bring both corporate-scale product leadership and hands-on 0→1 ownership, from discovery and product rules to delivery and iteration.",
       proof1:
         '<span class="hero-proof-num">+34%</span> delivery speed — speed followed from portfolio discipline and clearer trade-offs.',
       proof2:
@@ -103,29 +104,29 @@ const I18N = {
         '<span class="hero-proof-num">111</span> stores + HQ · <span class="hero-proof-num">~1.1–1.4k</span> users — owned HR tech products where consistency, scale, and business trade-offs had to hold everywhere.',
       proof4:
         '<span class="hero-proof-num">+60k</span> applications (first month) — owned the mortgage growth initiative where funnel, integrations, and ops had to hold together under volume.',
-      ctaCases: "View case studies",
+      ctaCases: "View selected work",
       ctaContact: "Contact",
       ctaCv: "Download CV",
     },
     exec: {
       kicker: "At a glance",
       role: "Product Leader",
-      org: "Portfolio ownership · Renmoney · Digital banking",
+      org: "Fintech · Platforms · 0→1 product systems",
       blurb:
-        "I treat product as a portfolio: defining which bets shape the next quarter, how priorities translate into releases, and how product, engineering, analytics, and business align around measurable outcomes.",
+        "I connect product judgment with delivery depth: defining the right problems, shaping workable product systems, and aligning product, engineering, analytics, and business around outcomes.",
       focusLabel: "Focus",
       focusValue:
-        "Portfolio direction, prioritization, operating cadence, outcomes aligned with business impact",
+        "Product strategy, discovery, prioritization, product rules, and outcome-focused delivery",
       domainsLabel: "Domains",
       domainsValue:
-        "Fintech, digital banking, HR tech at scale, partner platforms, acquisition",
+        "Fintech, digital banking, HR tech at scale, partner platforms, community sports",
       scaleLabel: "Scale",
-      scaleValue: "Multi-team, multi-site, integration-heavy and regulated customer journeys",
+      scaleValue: "Corporate-scale platforms plus live 0→1 product ownership in Dubai",
     },
     summary: {
       tag: "Executive summary",
       h2: "Who I am as a product leader",
-      p: "I unite <strong>product strategy and execution together</strong>: I lead portfolio prioritization and apply product judgement, then shape the cadence, operating model, and cross-functional alignment so teams deliver <strong>measurable business outcomes</strong>. I’ve done it across <strong>digital banking</strong>, <strong>retail-scale HR tech</strong>, <strong>partner and rewards platforms</strong>, and <strong>high-volume mortgage and acquisition</strong>—where leadership is decisions at portfolio scale, not activity.",
+      p: "I unite <strong>product strategy, discovery, and execution</strong>: I define what matters, make trade-offs explicit, then shape the product system and cross-functional alignment so teams ship <strong>measurable business outcomes</strong>. I’ve done it across <strong>digital banking</strong>, <strong>retail-scale HR tech</strong>, <strong>partner and rewards platforms</strong>, and <strong>high-volume mortgage and acquisition</strong>—and through <strong>Plai Arena</strong>, a live 0→1 community sports product I founded and build in Dubai.",
     },
     impact: {
       tag: "Evidence",
@@ -182,8 +183,9 @@ const I18N = {
     },
     cases: {
       tag: "Depth",
-      h2: "Case studies",
-      lead: "Direction and impact in one glance—full evidence sits in Experience.",
+      h2: "Selected Product Work",
+      lead:
+        "A cross-section of product leadership: scale, complex systems, fintech platforms, and 0→1 ownership.",
       items: [
         {
           meta: "Digital banking · Renmoney",
@@ -210,12 +212,54 @@ const I18N = {
             "<strong>+300 partners · 80% less manual effort · 2× faster operations.</strong>",
         },
         {
-          meta: "Mortgage · Growth · Tinkoff + DOM RF",
-          title: "Mortgage acquisition &amp; growth",
+          meta: "0→1 Product · B2C + B2B2C · Live",
+          title: "Plai Arena",
           context:
-            "High-volume mortgage growth depended on fast journeys, reliable integrations, and scalable execution.",
+            "Building a product system for community sports organizers and players, starting with badminton in Dubai—replacing fragmented chat-based operations with structured sessions, participation, matchmaking, results, and tournament workflows.",
           outcome:
-            "<strong>60,000 applications in first month · +1.79% end-to-end conversion improvement.</strong>",
+            "<strong>Role:</strong> Founder / Product Owner · <strong>Focus:</strong> Discovery · Product strategy · UX · Product rules · Mobile + Web",
+          details: [
+            {
+              title: "Problem",
+              body:
+                "Sports communities often run through chats and spreadsheets, making capacity, cancellations, attendance, waitlists, courts, results, and tournaments hard to manage reliably.",
+            },
+            {
+              title: "Discovery",
+              body:
+                "Direct conversations with organizers and players, plus firsthand experience running recurring badminton sessions, shape product rules and workflow decisions.",
+            },
+            {
+              title: "Product system",
+              body:
+                "Session discovery → joining → attendance → matchmaking → play → results → progress → return, supported by organizer/admin tooling.",
+            },
+            {
+              title: "Product decision",
+              body:
+                "FIFO waitlist with automatic promotion and explicit eligibility rules, so replacement logic is predictable instead of negotiated manually in chat.",
+            },
+            {
+              title: "Execution",
+              body:
+                "Own product strategy, flows, requirements, delivery decisions, testing, feedback loops, and iteration across mobile and web.",
+            },
+            {
+              title: "Current validation",
+              body:
+                "Live early-stage product in Dubai, with real usage, organizer feedback, and continuous validation. No product-market-fit or scale claims.",
+            },
+          ],
+          chips: [
+            "Registration",
+            "Capacity",
+            "Waitlists",
+            "Matchmaking",
+            "Ratings",
+            "Tournaments",
+            "Admin tooling",
+          ],
+          cta: "View product",
         },
       ],
     },
@@ -224,12 +268,12 @@ const I18N = {
       h2: "What I bring as a product leader",
       cards: [
         {
-          title: "Portfolio direction",
-          p: "Translate company strategy into a sequenced portfolio of product bets—clear owners and success metrics tied to revenue, risk, and time-to-impact—not a flat backlog of requests.",
+          title: "Product direction",
+          p: "Translate company strategy and user evidence into sequenced product bets with clear owners, constraints, and success metrics tied to revenue, risk, and time-to-impact.",
         },
         {
-          title: "Execution system",
-          p: "Connect strategy to shipped work: how prioritization, planning, and handoffs run so the right bets land—cadence and release discipline in service of outcomes, not speed for its own sake.",
+          title: "Discovery to delivery",
+          p: "Connect discovery, prioritization, planning, and release discipline so the right decisions become shipped product—not just cleaner process artifacts.",
         },
         {
           title: "Judgement &amp; trade-offs",
@@ -237,7 +281,7 @@ const I18N = {
         },
         {
           title: "Cross-functional leadership",
-          p: "Align product, engineering, analytics, QA, and business on direction, priorities, evidence, and release quality—from board-level bets to customer-facing outcomes.",
+          p: "Align product, engineering, analytics, QA, and business on direction, evidence, product rules, and release quality—from strategic bets to customer-facing outcomes.",
         },
       ],
     },
@@ -328,22 +372,22 @@ const I18N = {
     approach: {
       tag: "How I lead",
       h2: "Leadership approach",
-      p: "I anchor on <strong>decisions</strong>: which bets define the roadmap, what we stop, and how we measure success. Strategy lands when teams share one prioritization model, one cadence, and metrics that move when <strong>we</strong> change the product—not when slides change.",
-      flow: "Bets → trade-offs → direction → delivery → measurable outcomes",
+      p: "I anchor on <strong>decisions</strong>: what problem we are solving, which bets define the roadmap, what we stop, and how success is measured. Strong product work lives in the details—states, permissions, edge cases, user feedback, and trade-offs teams can actually execute.",
+      flow: "Discovery → trade-offs → product rules → delivery → measurable outcomes",
     },
     fit: {
       tag: "Fit",
       h2: "Who I’m a fit for",
       companiesTitle: "Companies",
       companies: [
-        "Fintech and digital banks scaling product leadership and portfolio discipline",
+        "Fintech and digital banks scaling product leadership, discovery quality, and prioritization discipline",
         "Platforms and marketplaces where partners, internal tools, or regulated journeys are the product",
         "Organizations where product judgement and execution quality—not idea volume—set the growth ceiling",
       ],
       situationsTitle: "Situations",
       situations: [
-        "You are hiring a Head of Product, VP Product, or senior product leader with evidence at scale",
-        "Post–product–market fit: you need clearer portfolio priorities, operating cadence, or cross-functional alignment",
+        "You are hiring a Senior Product Manager, Lead Product Manager, or Product Lead with evidence at scale",
+        "You need stronger product judgment, clearer priorities, operating cadence, or cross-functional alignment",
         "Regulated or integration-heavy domains where the leader owns direction, sequencing, risk, and outcomes",
       ],
     },
@@ -361,9 +405,10 @@ const I18N = {
       lead: "Depth across product, domain, and craft—plus how I invest in the next generation.",
       card1Title: "Expertise",
       card1: [
-        "<strong>Product leadership</strong>—strategy, prioritization, and operating model: how direction becomes a portfolio of bets and a cadence teams can run.",
+        "<strong>Product leadership</strong>—strategy, discovery, prioritization, and operating model: how ambiguous problems become focused product bets and a cadence teams can run.",
         "<strong>Domains</strong>—fintech, HR tech, platforms, and growth in complex, high-stakes environments.",
-        "<strong>Technical depth</strong> where it counts—APIs, integrations, and analytics—so decisions with engineering stay grounded and fast.",
+        "<strong>Technical depth</strong> where it counts—APIs, integrations, analytics, states, rules, and edge cases—so decisions with engineering stay grounded and fast.",
+        "<strong>AI-assisted product workflow</strong>—using AI for discovery synthesis, hypothesis challenging, edge-case analysis, requirements, prototyping, and implementation review while keeping final decisions grounded in users, business priorities, and system constraints.",
       ],
       card2Title: "Leadership & mentoring",
       card2: [
@@ -374,33 +419,33 @@ const I18N = {
     contact: {
       tag: "Contact",
       h2: "Let’s talk",
-      p1: "I’m targeting Head of Product and senior product leadership roles—full-time—in fintech, digital banking, platform products, and other complex, high-stakes environments. Based in Dubai; happy to discuss international opportunities that match that scope.",
-      p2: "I focus on leadership mandates where I can own portfolio direction and outcomes end-to-end—if that’s what you’re building, I’d like to hear from you.",
+      p1: "I’m targeting Senior Product Manager, Lead Product Manager, and Product Lead roles in fintech, digital banking, platform products, and other complex environments. Based in Dubai; open to international teams and selected advisory or expert engagements.",
+      p2: "I focus on mandates where I can own product direction, discovery, trade-offs, and outcomes end-to-end—if that’s what you’re building, I’d like to hear from you.",
       cvLabel: "Download CV (PDF)",
     },
     footerBack: "Back to top",
   },
 
   ru: {
-    title: "Bahrom Muhamedzhanov — Product Delivery Lead · Product Leader",
+    title: "Bahrom Muhamedzhanov — Product Lead · Senior Product Manager",
     metaDescription:
-      "Product Delivery Lead с мандатом уровня Product Leader: направление продуктового портфеля, приоритизация, продуктовые инициативы и перевод стратегии в измеримые результаты в сфере финансовых технологий, на платформах, в кадровых технологиях и регулируемых клиентских сценариях. Дубай.",
+      "Product Lead и Senior Product Manager с опытом в финтехе, платформах, регулируемых продуктах и 0→1 продуктовых системах. Базируется в Дубае.",
     nav: {
       summary: "Резюме",
       impact: "Результаты",
-      cases: "Кейсы",
+      cases: "Работы",
       capabilities: "Компетенции",
       experience: "Опыт",
       expertise: "Экспертиза",
       contact: "Контакты",
     },
     hero: {
-      eyebrow: "Продуктовое лидерство · Финансовые технологии · Платформы · Масштаб",
-      titleLine: "Product Delivery Lead · Product Leader",
+      eyebrow: "Продуктовое лидерство · Финтех · Платформы · 0→1 системы",
+      titleLine: "Product Lead · Senior Product Manager",
       lead1:
-        "Я определяю направление и приоритизацию продуктового портфеля — а затем выстраиваю систему, которая превращает продуктовые инициативы в измеримый результат для продукта, разработки и бизнеса.",
+        "Я веду продуктовую стратегию и реализацию в сложных финтех-, платформенных и регулируемых продуктах — превращаю неопределённые задачи в ясные продуктовые решения и измеримый результат.",
       lead2:
-        "Фокусируюсь на том, какие решения действительно важны — а не только на том, как они реализуются.",
+        "Сочетаю корпоративный опыт в продуктах на масштабе с практическим 0→1 владением: от discovery и продуктовых правил до реализации и итераций.",
       proof1:
         '<span class="hero-proof-num">+34%</span> скорость доставки — рост появился благодаря дисциплине портфеля и более чётким компромиссам.',
       proof2:
@@ -409,30 +454,30 @@ const I18N = {
         '<span class="hero-proof-num">111</span> магазинов + головной офис · <span class="hero-proof-num">~1,1–1,4 тыс.</span> пользователей — отвечал за кадровые технологии, где везде должны были выдерживаться стандарты, масштаб и бизнес‑компромиссы.',
       proof4:
         '<span class="hero-proof-num">+60k</span> заявок (первый месяц) — отвечал за ипотечную инициативу роста, где вместе должны были сойтись воронка, интеграции и операции под нагрузкой.',
-      ctaCases: "Смотреть кейсы",
+      ctaCases: "Смотреть работы",
       ctaContact: "Контакты",
       ctaCv: "Скачать резюме",
     },
     exec: {
       kicker: "Коротко о главном",
       role: "Product Leader",
-      org: "Владение портфелем · Renmoney · цифровые банковские сервисы",
+      org: "Финтех · Платформы · 0→1 продуктовые системы",
       blurb:
-        "Рассматриваю продукт как портфель: определяю, какие инициативы формируют следующий квартал, как приоритеты превращаются в релизы и как продукт, разработка, аналитика и бизнес синхронизируются вокруг измеримого результата.",
+        "Соединяю продуктовый judgement и глубину реализации: определяю правильные проблемы, формирую рабочие продуктовые системы и синхронизирую продукт, разработку, аналитику и бизнес вокруг результата.",
       focusLabel: "Фокус",
       focusValue:
-        "Направление портфеля, приоритизация, операционный ритм, результаты в связке с бизнес‑эффектом",
+        "Продуктовая стратегия, discovery, приоритизация, продуктовые правила и delivery, ориентированное на результат",
       domainsLabel: "Домены",
       domainsValue:
-        "Финансовые технологии, цифровые банковские сервисы, кадровые технологии в масштабе, партнёрские платформы, привлечение",
+        "Финтех, цифровой банкинг, HR tech на масштабе, партнёрские платформы, community sports",
       scaleLabel: "Масштаб",
       scaleValue:
-        "Мульти-командный, многоплощадочный, интеграционно нагруженный и регулируемый сценарий взаимодействия с клиентом",
+        "Корпоративные платформы на масштабе плюс live 0→1 продукт в Дубае",
     },
     summary: {
       tag: "Кратко",
       h2: "Кто я как продуктовый лидер",
-      p: "Объединяю <strong>стратегию продукта и исполнение</strong>: определяю приоритизацию портфеля и принимаю продуктовые решения, затем выстраиваю ритм, операционную модель и кросс‑функциональное взаимодействие, чтобы команды давали <strong>измеримый бизнес‑результат</strong>. Делал это в <strong>цифровых банковских сервисах</strong>, <strong>кадровых технологиях на уровне розницы</strong>, <strong>партнёрских и бонусных платформах</strong> и <strong>ипотеке и росте на больших объёмах</strong> — где лидерство — это решения в масштабе портфеля, а не активность ради активности.",
+      p: "Объединяю <strong>продуктовую стратегию, discovery и реализацию</strong>: определяю, что важно, делаю компромиссы явными, затем формирую продуктовую систему и кросс‑функциональное взаимодействие, чтобы команды давали <strong>измеримый бизнес‑результат</strong>. Делал это в <strong>цифровом банкинге</strong>, <strong>HR tech на масштабе ритейла</strong>, <strong>партнёрских и бонусных платформах</strong>, <strong>ипотеке и acquisition на больших объёмах</strong> — а также через <strong>Plai Arena</strong>, live 0→1 продукт для спортивных сообществ, который я основал и развиваю в Дубае.",
     },
     impact: {
       tag: "Результаты",
@@ -489,8 +534,9 @@ const I18N = {
     },
     cases: {
       tag: "Глубина",
-      h2: "Кейсы",
-      lead: "Направление и эффект за один взгляд — детали в разделе «Опыт».",
+      h2: "Избранные продуктовые работы",
+      lead:
+        "Срез продуктового опыта: масштаб, сложные системы, финтех-платформы и 0→1 владение продуктом.",
       items: [
         {
           meta: "цифровые банковские сервисы · Renmoney",
@@ -517,12 +563,54 @@ const I18N = {
             "<strong>+300 партнёров · на 80% меньше ручных усилий · операции в 2× быстрее.</strong>",
         },
         {
-          meta: "Ипотека · Рост · Тинькофф + ДОМ.РФ",
-          title: "Ипотечное привлечение и рост",
+          meta: "0→1 продукт · B2C + B2B2C · Live",
+          title: "Plai Arena",
           context:
-            "Ипотечный рост при больших объемах зависел от быстрых клиентских сценариев, надежных интеграций и масштабируемого исполнения.",
+            "Строю продуктовую систему для организаторов и игроков в community sports, начиная с бадминтона в Дубае: заменяю разрозненные операции в чатах на структурированные сессии, участие, matchmaking, результаты и турнирные сценарии.",
           outcome:
-            "<strong>60,000 заявок в первый месяц · +1.79% улучшение сквозной конверсии.</strong>",
+            "<strong>Роль:</strong> Founder / Product Owner · <strong>Фокус:</strong> Discovery · продуктовая стратегия · UX · продуктовые правила · Mobile + Web",
+          details: [
+            {
+              title: "Проблема",
+              body:
+                "Спортивные сообщества часто живут в чатах и таблицах, из-за чего capacity, отмены, attendance, waitlists, корты, результаты и турниры сложно вести надёжно.",
+            },
+            {
+              title: "Discovery",
+              body:
+                "Прямые разговоры с организаторами и игроками, а также личный опыт регулярных бадминтон-сессий формируют продуктовые правила и решения по workflow.",
+            },
+            {
+              title: "Продуктовая система",
+              body:
+                "Discovery сессии → joining → attendance → matchmaking → play → results → progress → return, с organizer/admin tooling вокруг этого цикла.",
+            },
+            {
+              title: "Продуктовое решение",
+              body:
+                "FIFO waitlist с автоматическим продвижением и явными eligibility rules, чтобы замена игроков была предсказуемой, а не решалась вручную в чате.",
+            },
+            {
+              title: "Реализация",
+              body:
+                "Отвечаю за стратегию, flows, требования, delivery decisions, тестирование, feedback loops и итерации на mobile и web.",
+            },
+            {
+              title: "Текущая валидация",
+              body:
+                "Live early-stage продукт в Дубае: реальное использование, обратная связь организаторов и постоянная валидация. Без заявлений о PMF или масштабе.",
+            },
+          ],
+          chips: [
+            "Registration",
+            "Capacity",
+            "Waitlists",
+            "Matchmaking",
+            "Ratings",
+            "Tournaments",
+            "Admin tooling",
+          ],
+          cta: "Смотреть продукт",
         },
       ],
     },
@@ -531,12 +619,12 @@ const I18N = {
       h2: "Что я приношу как продуктовый лидер",
       cards: [
         {
-          title: "Направление портфеля",
-          p: "Перевожу стратегию компании в последовательный портфель продуктовых инициатив: есть владельцы и метрики успеха, привязанные к выручке, рискам и времени до эффекта — без «плоского» бэклога запросов.",
+          title: "Продуктовое направление",
+          p: "Перевожу стратегию компании и пользовательские сигналы в последовательные продуктовые инициативы с владельцами, ограничениями и метриками успеха, связанными с выручкой, риском и временем до эффекта.",
         },
         {
-          title: "Операционная система",
-          p: "Связываю стратегию с тем, что реально выходит: как приоритизация, планирование и передачи между командами обеспечивают попадание в нужные инициативы — ритм и дисциплина релизов в службе результата, а не ради скорости.",
+          title: "От discovery до delivery",
+          p: "Связываю discovery, приоритизацию, планирование и релизную дисциплину так, чтобы правильные решения становились продуктом, а не только более аккуратными процессами.",
         },
         {
           title: "Решения и компромиссы",
@@ -544,7 +632,7 @@ const I18N = {
         },
         {
           title: "Кросс‑функциональное лидерство",
-          p: "Выстраиваю единую линию продукта, разработки, аналитики, контроля качества и бизнеса по направлению, приоритетам, доказательствам и качеству релизов — от ключевых инициатив уровня совета до клиентского результата.",
+          p: "Выстраиваю единую линию продукта, разработки, аналитики, контроля качества и бизнеса по направлению, evidence, продуктовым правилам и качеству релизов — от стратегических инициатив до клиентского результата.",
         },
       ],
     },
@@ -635,22 +723,22 @@ const I18N = {
     approach: {
       tag: "Как я веду",
       h2: "Подход к лидерству",
-      p: "Опираюсь на <strong>решения</strong>: какие ключевые инициативы определяют дорожную карту, что прекращаем и как измеряем успех. Стратегия работает, когда команды разделяют одну модель приоритизации, один ритм и метрики, которые меняются, когда <strong>мы</strong> меняем продукт — а не когда меняются слайды.",
-      flow: "Инициативы → компромиссы → направление → реализация → измеримые результаты",
+      p: "Опираюсь на <strong>решения</strong>: какую проблему решаем, какие инициативы определяют roadmap, что прекращаем и как измеряем успех. Сильная продуктовая работа живёт в деталях: states, permissions, edge cases, обратная связь пользователей и компромиссы, которые команда может реально выполнить.",
+      flow: "Discovery → компромиссы → продуктовые правила → delivery → измеримые результаты",
     },
     fit: {
       tag: "Кому подойдёт",
       h2: "Кому я подхожу",
       companiesTitle: "Компании",
       companies: [
-        "Компании в сфере финансовых технологий и цифровые банки, которые масштабируют продуктовое лидерство и дисциплину портфеля",
+        "Компании в финтехе и цифровом банкинге, которые усиливают продуктовое лидерство, качество discovery и дисциплину приоритизации",
         "Платформы и маркетплейсы, где продуктом становятся партнёры, внутренние инструменты или регулируемые сценарии",
         "Организации, где рост упирается не в количество идей, а в продуктовые решения и качество реализации",
       ],
       situationsTitle: "Ситуации",
       situations: [
-        "Вы нанимаете руководителя продуктового направления, вице‑президента по продукту или опытного продуктового лидера с доказанным результатом на масштабе",
-        "После выхода на соответствие продукта рынку: вам нужны более четкие приоритеты портфеля, операционный ритм или согласование между функциями",
+        "Вы нанимаете Senior Product Manager, Lead Product Manager или Product Lead с доказанным результатом на масштабе",
+        "Вам нужны более сильный product judgement, ясные приоритеты, операционный ритм или кросс‑функциональное согласование",
         "Регулируемые домены или среды с тяжелыми интеграциями, где лидер отвечает за направление, последовательность, риски и результаты",
       ],
     },
@@ -668,9 +756,10 @@ const I18N = {
       lead: "Глубина в продукте, доменах и ремесле — и как я вкладываюсь в следующее поколение.",
       card1Title: "Экспертиза",
       card1: [
-        "<strong>Продуктовое лидерство</strong> — стратегия, приоритизация и операционная модель: как направление превращается в портфель продуктовых инициатив и ритм, который команды могут выдерживать.",
+        "<strong>Продуктовое лидерство</strong> — стратегия, discovery, приоритизация и операционная модель: как неопределённые задачи превращаются в сфокусированные продуктовые инициативы и ритм, который команды могут выдерживать.",
         "<strong>Домены</strong> — финансовые технологии, кадровые технологии, платформы и рост в сложных и чувствительных контекстах.",
-        "<strong>Техническая глубина</strong> там, где она нужна: программные интерфейсы, интеграции и аналитика — чтобы решения с разработкой оставались обоснованными и быстрыми.",
+        "<strong>Техническая глубина</strong> там, где она нужна: API, интеграции, аналитика, states, rules и edge cases — чтобы решения с разработкой оставались обоснованными и быстрыми.",
+        "<strong>AI-assisted product workflow</strong> — использую AI для синтеза discovery, проверки гипотез, анализа edge cases, требований, прототипирования и implementation review, оставляя финальные решения за пользователями, бизнес‑приоритетами и системными ограничениями.",
       ],
       card2Title: "Лидерство и наставничество",
       card2: [
@@ -681,8 +770,8 @@ const I18N = {
     contact: {
       tag: "Контакты",
       h2: "Давайте обсудим",
-      p1: "Рассматриваю роли руководителя продуктового направления и продуктового лидера в FinTech, цифровом банкинге и продуктовых платформах. Базируюсь в Дубае; готов обсуждать международные возможности в этом масштабе.",
-      p2: "Фокус на лидерских мандатах, где я отвечаю за направление портфеля и сквозной результат. Если вы строите именно это — буду рад обсудить.",
+      p1: "Рассматриваю роли Senior Product Manager, Lead Product Manager и Product Lead в финтехе, цифровом банкинге, платформенных продуктах и других сложных средах. Базируюсь в Дубае; открыт к международным командам и отдельным advisory / expert engagements.",
+      p2: "Фокус на мандатах, где я отвечаю за продуктовое направление, discovery, компромиссы и сквозной результат. Если вы строите именно это — буду рад обсудить.",
       cvLabel: "Скачать резюме",
     },
     footerBack: "Наверх",
@@ -818,7 +907,7 @@ function applyLanguage(lang) {
     if (copy) setText(copy, item.copy);
   });
 
-  // Case studies
+  // Selected product work
   setText(document.querySelector("#cases .section-tag"), dict.cases.tag);
   setText(document.querySelector("#cases h2"), dict.cases.h2);
   setText(document.querySelector("#cases .section-lead"), dict.cases.lead);
@@ -835,6 +924,25 @@ function applyLanguage(lang) {
     if (bodyPs[0]) setText(bodyPs[0], item.context);
     if (bodyPs[1]) setHTML(bodyPs[1], item.outcome);
   });
+
+  const plaiItem = dict.cases.items[3];
+  const plaiCase = document.querySelector(".case-study-plai");
+  if (plaiCase && plaiItem) {
+    const detailBlocks = plaiCase.querySelectorAll(".case-detail-grid > div");
+    detailBlocks.forEach((block, idx) => {
+      const detail = plaiItem.details?.[idx];
+      if (!detail) return;
+      setText(block.querySelector("h4"), detail.title);
+      setText(block.querySelector("p"), detail.body);
+    });
+
+    const chips = plaiCase.querySelectorAll(".case-chips span");
+    plaiItem.chips?.forEach((chip, idx) => {
+      if (chips[idx]) setText(chips[idx], chip);
+    });
+
+    setText(plaiCase.querySelector(".case-actions a"), plaiItem.cta);
+  }
 
   // Capabilities
   setText(

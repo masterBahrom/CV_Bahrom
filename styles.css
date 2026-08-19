@@ -575,6 +575,118 @@ button {
   font-weight: 600;
 }
 
+.case-study-featured,
+.case-study-plai {
+  border-color: rgba(234, 88, 12, 0.18);
+}
+
+.case-study-head-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plai-logo-mark {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 16px;
+  border: 1px solid rgba(234, 88, 12, 0.34);
+  background:
+    linear-gradient(135deg, rgba(234, 88, 12, 0.18), rgba(45, 212, 191, 0.1)),
+    rgba(255, 255, 255, 0.04);
+  color: #fff7ed;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.22);
+}
+
+.case-summary {
+  font-size: 17px !important;
+  color: #dbe3f5 !important;
+}
+
+.case-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.case-detail-grid > div {
+  padding: 18px 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.case-detail-grid h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-2);
+}
+
+.case-detail-grid p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.case-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.case-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.035);
+  color: #dfe6f5;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.case-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.case-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(234, 88, 12, 0.35);
+  color: var(--accent-2);
+  font-size: 14px;
+  font-weight: 700;
+  background: rgba(234, 88, 12, 0.08);
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.case-actions a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(234, 88, 12, 0.55);
+  background: rgba(234, 88, 12, 0.12);
+}
+
 /* Cards grid capabilities */
 .cards-grid {
   display: grid;
@@ -1062,6 +1174,24 @@ button {
   .case-study-body {
     padding-left: 22px;
     padding-right: 22px;
+  }
+
+  .case-study-head-with-logo {
+    align-items: flex-start;
+  }
+
+  .plai-logo-mark {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+  }
+
+  .case-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-actions a {
+    width: 100%;
   }
 
   .section-head h2 {
