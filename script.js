@@ -259,7 +259,7 @@ const I18N = {
             "Tournaments",
             "Admin tooling",
           ],
-          cta: "View product",
+          ctas: ["View product", "View case study"],
         },
       ],
     },
@@ -610,7 +610,7 @@ const I18N = {
             "Tournaments",
             "Admin tooling",
           ],
-          cta: "Смотреть продукт",
+          ctas: ["Смотреть продукт", "Смотреть кейс"],
         },
       ],
     },
@@ -941,7 +941,10 @@ function applyLanguage(lang) {
       if (chips[idx]) setText(chips[idx], chip);
     });
 
-    setText(plaiCase.querySelector(".case-actions a"), plaiItem.cta);
+    const actions = plaiCase.querySelectorAll(".case-actions a");
+    plaiItem.ctas?.forEach((label, idx) => {
+      if (actions[idx]) setText(actions[idx], label);
+    });
   }
 
   // Capabilities
